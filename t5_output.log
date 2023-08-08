@@ -1,0 +1,69 @@
+WARNING:tensorflow:From /home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/tensorflow_core/python/compat/v2_compat.py:68: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2022-12-02 10:48:59.505870: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-12-02 10:48:59.506068: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-02 10:48:59.506652: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:01:00.0
+2022-12-02 10:48:59.506870: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib::/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64
+2022-12-02 10:48:59.507012: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib::/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64
+2022-12-02 10:48:59.507149: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib::/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64
+2022-12-02 10:48:59.507285: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib::/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64
+2022-12-02 10:48:59.507429: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib::/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64
+2022-12-02 10:48:59.507578: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib::/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64
+2022-12-02 10:48:59.507727: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib:/home/team5/torch/install/lib::/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64
+2022-12-02 10:48:59.507741: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-12-02 10:48:59.513232: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3491935000 Hz
+2022-12-02 10:48:59.513635: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3fbdc00 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-12-02 10:48:59.513657: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-12-02 10:48:59.586863: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-12-02 10:48:59.587503: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5804150 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2022-12-02 10:48:59.587533: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2022-12-02 10:48:59.587642: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-12-02 10:48:59.587656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+Start loading constants ...
+Finished loading constants ...
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Namespace(calc_tg_metrics=True, data_type='hotpot_sub', debug=False, debug_num=20, device='cuda', filecache='', filename='/home/team5/QGStepByStep/DCQG_data/test.json', max_length=50, min_length=1, model_name='', model_name_or_path='/home/team5/QGStepByStep/Datasets/output/QG-T5/testmodels/', model_type='t5', no_sample=False, output_file='/home/team5/QGStepByStep/Datasets/output/QG-T5/generated/hotpot_sub/test.0.1000.generated.t5_test.json', save_freq=2000, seed=42, subq_dir='/home/team5/QGStepByStep/Datasets/output/QG/generated/hotpot_sub/test.0.1000.generated.t5.intermediate.json', temperature=0.7, top_k=0, top_p=0.9)
+Get pretrained model and tokenizer
+Start get HotpotQA raw examples ... 
+total number of raw data: 6945
+  0%|          | 0/6945 [00:00<?, ?it/s] 17%|█▋        | 1192/6945 [00:00<00:00, 11918.14it/s] 34%|███▍      | 2385/6945 [00:00<00:00, 11920.51it/s] 52%|█████▏    | 3580/6945 [00:00<00:00, 11933.02it/s] 69%|██████▉   | 4797/6945 [00:00<00:00, 12021.53it/s] 87%|████████▋ | 6010/6945 [00:00<00:00, 12057.82it/s]100%|██████████| 6945/6945 [00:00<00:00, 12013.45it/s]
+Time of get raw examples: 0:00:00.770147
+Number of raw examples:  6945
+Number of examples answer not in paragraph:  1428
+  0%|          | 0/6945 [00:00<?, ?it/s]  2%|▏         | 125/6945 [00:00<00:05, 1246.35it/s]  4%|▎         | 254/6945 [00:00<00:05, 1268.60it/s]  6%|▌         | 382/6945 [00:00<00:05, 1269.41it/s]  7%|▋         | 511/6945 [00:00<00:05, 1275.83it/s]  9%|▉         | 639/6945 [00:00<00:04, 1273.70it/s] 11%|█         | 767/6945 [00:00<00:04, 1258.87it/s] 13%|█▎        | 897/6945 [00:00<00:04, 1268.98it/s] 15%|█▍        | 1024/6945 [00:00<00:04, 1265.23it/s] 17%|█▋        | 1154/6945 [00:00<00:04, 1273.70it/s] 18%|█▊        | 1282/6945 [00:01<00:04, 1259.58it/s] 20%|██        | 1408/6945 [00:01<00:04, 1258.48it/s] 22%|██▏       | 1534/6945 [00:01<00:04, 1255.92it/s] 24%|██▍       | 1661/6945 [00:01<00:04, 1259.11it/s] 26%|██▌       | 1787/6945 [00:01<00:04, 1256.07it/s] 28%|██▊       | 1913/6945 [00:01<00:04, 1238.22it/s] 29%|██▉       | 2043/6945 [00:01<00:03, 1255.92it/s] 31%|███       | 2169/6945 [00:01<00:03, 1256.10it/s] 33%|███▎      | 2299/6945 [00:01<00:03, 1268.97it/s] 35%|███▍      | 2426/6945 [00:01<00:03, 1268.45it/s] 37%|███▋      | 2553/6945 [00:02<00:03, 1267.43it/s] 39%|███▊      | 2680/6945 [00:02<00:03, 1257.21it/s] 40%|████      | 2806/6945 [00:02<00:03, 1242.73it/s] 42%|████▏     | 2931/6945 [00:02<00:03, 1239.64it/s] 44%|████▍     | 3055/6945 [00:02<00:03, 1239.50it/s] 46%|████▌     | 3183/6945 [00:02<00:03, 1247.70it/s] 48%|████▊     | 3310/6945 [00:02<00:02, 1253.83it/s] 49%|████▉     | 3436/6945 [00:02<00:02, 1247.90it/s] 51%|█████▏    | 3566/6945 [00:02<00:02, 1260.90it/s] 53%|█████▎    | 3696/6945 [00:02<00:02, 1270.20it/s] 55%|█████▌    | 3824/6945 [00:03<00:02, 1258.70it/s] 57%|█████▋    | 3951/6945 [00:03<00:02, 1260.90it/s] 59%|█████▊    | 4078/6945 [00:03<00:02, 1256.49it/s] 61%|██████    | 4206/6945 [00:03<00:02, 1262.25it/s] 62%|██████▏   | 4335/6945 [00:03<00:02, 1269.83it/s] 64%|██████▍   | 4466/6945 [00:03<00:01, 1279.97it/s] 66%|██████▌   | 4598/6945 [00:03<00:01, 1291.36it/s] 68%|██████▊   | 4728/6945 [00:03<00:01, 1271.76it/s] 70%|██████▉   | 4856/6945 [00:03<00:01, 1267.09it/s] 72%|███████▏  | 4983/6945 [00:03<00:01, 1262.53it/s] 74%|███████▎  | 5110/6945 [00:04<00:01, 1262.86it/s] 75%|███████▌  | 5241/6945 [00:04<00:01, 1274.30it/s] 77%|███████▋  | 5369/6945 [00:04<00:01, 1267.45it/s] 79%|███████▉  | 5497/6945 [00:04<00:01, 1270.06it/s] 81%|████████  | 5625/6945 [00:04<00:01, 1271.03it/s] 83%|████████▎ | 5754/6945 [00:04<00:00, 1275.38it/s] 85%|████████▍ | 5882/6945 [00:04<00:00, 1251.93it/s] 87%|████████▋ | 6008/6945 [00:04<00:00, 1249.83it/s] 88%|████████▊ | 6140/6945 [00:04<00:00, 1268.13it/s] 90%|█████████ | 6268/6945 [00:04<00:00, 1269.76it/s] 92%|█████████▏| 6396/6945 [00:05<00:00, 1264.45it/s] 94%|█████████▍| 6523/6945 [00:05<00:00, 1264.41it/s] 96%|█████████▌| 6650/6945 [00:05<00:00, 1258.76it/s] 98%|█████████▊| 6779/6945 [00:05<00:00, 1266.05it/s] 99%|█████████▉| 6908/6945 [00:05<00:00, 1270.86it/s]100%|██████████| 6945/6945 [00:05<00:00, 1263.09it/s]
+0 / 6945 sequences truncated due to positional embedding restriction
+Dataset cached at %s 
+Time of get_positional_dataset_from_file: 0:00:06.280117
+  0%|          | 0/6945 [00:00<?, ?it/s]  0%|          | 0/6945 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "QG_t5_generate.py", line 5, in <module>
+    run()
+  File "/home/team5/QGStepByStep/T5_QG/interact.py", line 307, in run
+    output = sample_sequence(inst, tokenizer, model, args, para_cache) 
+  File "/home/team5/QGStepByStep/T5_QG/interact.py", line 105, in sample_sequence
+    outputs = model(input_ids, labels=labels, encoder_outputs=(encoder_last_hidden_state, encoder_hidden_states, encoder_attentions), output_hidden_states=True, output_attentions=True, use_cache=True) #
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/transformers/models/t5/modeling_t5.py", line 1660, in forward
+    return_dict=return_dict,
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/transformers/models/t5/modeling_t5.py", line 1051, in forward
+    output_attentions=output_attentions,
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/transformers/models/t5/modeling_t5.py", line 708, in forward
+    output_attentions=output_attentions,
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/transformers/models/t5/modeling_t5.py", line 622, in forward
+    output_attentions=output_attentions,
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/team5/anaconda3/envs/QGforT5/lib/python3.7/site-packages/transformers/models/t5/modeling_t5.py", line 538, in forward
+    scores += position_bias_masked
+RuntimeError: The size of tensor a (41) must match the size of tensor b (45) at non-singleton dimension 3
